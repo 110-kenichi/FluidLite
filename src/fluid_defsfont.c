@@ -1960,7 +1960,11 @@ sfload_file (const char * fname)
       FLUID_LOG (FLUID_ERR, _("Get end of file position failed"));
     }
   if (!err)
-    rewind (fd);
+  {
+	  //rewind (fd);
+	  fseek(fd, 0L, SEEK_SET);
+	  clearerr(fd);
+  }
 
   if (!err && !load_body (fsize, sf, fd))
     err = TRUE;			/* load the sfont */

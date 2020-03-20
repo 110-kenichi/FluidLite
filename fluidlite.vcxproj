@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";fluidlite_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\mame_src\mame\src\FluidLite\src;E:\mame_src\mame\src\FluidLite\include;E:\mame_src\mame\src\FluidLite\libogg-1.3.2\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;include;libogg-1.3.2\include;libvorbis-1.3.5\include;libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\mame_src\mame\src\FluidLite\src;E:\mame_src\mame\src\FluidLite\include;E:\mame_src\mame\src\FluidLite\libogg-1.3.2\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;include;libogg-1.3.2\include;libvorbis-1.3.5\include;libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,8 +113,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/mame_src/mame/src/FluidLite/Debug/fluidlite.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/mame_src/mame/src/FluidLite/Debug/fluidlite.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Debug/fluidlite.lib</ImportLibrary>
+      <ProgramDataBaseFile>Debug/fluidlite.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -141,10 +141,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";fluidlite_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\mame_src\mame\src\FluidLite\src;E:\mame_src\mame\src\FluidLite\include;E:\mame_src\mame\src\FluidLite\libogg-1.3.2\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;include;libogg-1.3.2\include;libvorbis-1.3.5\include;libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\mame_src\mame\src\FluidLite\src;E:\mame_src\mame\src\FluidLite\include;E:\mame_src\mame\src\FluidLite\libogg-1.3.2\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;include;libogg-1.3.2\include;libvorbis-1.3.5\include;libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,8 +157,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/mame_src/mame/src/FluidLite/Debug/fluidlite.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/mame_src/mame/src/FluidLite/Debug/fluidlite.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Debug/fluidlite.lib</ImportLibrary>
+      <ProgramDataBaseFile>Debug/fluidlite.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -185,10 +185,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";fluidlite_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\mame_src\mame\src\FluidLite\src;E:\mame_src\mame\src\FluidLite\include;E:\mame_src\mame\src\FluidLite\libogg-1.3.2\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;include;libogg-1.3.2\include;libvorbis-1.3.5\include;libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\mame_src\mame\src\FluidLite\src;E:\mame_src\mame\src\FluidLite\include;E:\mame_src\mame\src\FluidLite\libogg-1.3.2\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;include;libogg-1.3.2\include;libvorbis-1.3.5\include;libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -201,8 +201,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/mame_src/mame/src/FluidLite/Release/fluidlite.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/mame_src/mame/src/FluidLite/Release/fluidlite.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Release/fluidlite.lib</ImportLibrary>
+      <ProgramDataBaseFile>Release/fluidlite.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -229,10 +229,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";fluidlite_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\mame_src\mame\src\FluidLite\src;E:\mame_src\mame\src\FluidLite\include;E:\mame_src\mame\src\FluidLite\libogg-1.3.2\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;include;libogg-1.3.2\include;libvorbis-1.3.5\include;libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\mame_src\mame\src\FluidLite\src;E:\mame_src\mame\src\FluidLite\include;E:\mame_src\mame\src\FluidLite\libogg-1.3.2\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\include;E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;include;libogg-1.3.2\include;libvorbis-1.3.5\include;libvorbis-1.3.5\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -245,8 +245,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/mame_src/mame/src/FluidLite/Release/fluidlite.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/mame_src/mame/src/FluidLite/Release/fluidlite.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Release/fluidlite.lib</ImportLibrary>
+      <ProgramDataBaseFile>Release/fluidlite.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -254,110 +254,46 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\mame_src\mame\src\FluidLite\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/mame_src/mame/src/FluidLite/CMakeLists.txt</Message>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/mame_src/mame/src/FluidLite/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/mame_src/mame/src/FluidLite -BE:/mame_src/mame/src/FluidLite --check-stamp-file E:/mame_src/mame/src/FluidLite/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/mame_src/mame/src/FluidLite -BE:/mame_src/mame/src/FluidLite --check-stamp-file E:/mame_src/mame/src/FluidLite/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeCCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeCXXCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeRCCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeSystem.cmake;E:\mame_src\mame\src\FluidLite\fluidlite.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeCCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeCXXCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeRCCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeSystem.cmake;E:\mame_src\mame\src\FluidLite\fluidlite.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\mame_src\mame\src\FluidLite\CMakeFiles\generate.stamp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\mame_src\mame\src\FluidLite\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/mame_src/mame/src/FluidLite/CMakeLists.txt</Message>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/mame_src/mame/src/FluidLite/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/mame_src/mame/src/FluidLite -BE:/mame_src/mame/src/FluidLite --check-stamp-file E:/mame_src/mame/src/FluidLite/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/mame_src/mame/src/FluidLite -BE:/mame_src/mame/src/FluidLite --check-stamp-file E:/mame_src/mame/src/FluidLite/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeCCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeCXXCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeRCCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeSystem.cmake;E:\mame_src\mame\src\FluidLite\fluidlite.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeCCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeCXXCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeRCCompiler.cmake;E:\mame_src\mame\src\FluidLite\CMakeFiles\3.17.0-rc3\CMakeSystem.cmake;E:\mame_src\mame\src\FluidLite\fluidlite.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\mame_src\mame\src\FluidLite\CMakeFiles\generate.stamp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\mame_src\mame\src\FluidLite\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_chan.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_chorus.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_conv.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_defsfont.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_dsp_float.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_gen.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_hash.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_list.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_mod.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_ramsfont.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_rev.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_settings.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_synth.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_sys.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_tuning.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\src\fluid_voice.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\vorbisenc.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\info.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\analysis.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\bitrate.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\block.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\codebook.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\envelope.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\floor0.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\floor1.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\lookup.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\lpc.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\lsp.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\mapping0.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\mdct.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\psy.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\registry.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\res0.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\sharedbook.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\smallft.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\vorbisfile.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\window.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libvorbis-1.3.5\lib\synthesis.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libogg-1.3.2\src\bitwise.c" />
-    <ClCompile Include="E:\mame_src\mame\src\FluidLite\libogg-1.3.2\src\framing.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="E:\mame_src\mame\src\FluidLite\ZERO_CHECK.vcxproj">
-      <Project>{07686643-F5D0-3F82-B148-511F6994487F}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
+    <ClCompile Include="src\fluid_chan.c" />
+    <ClCompile Include="src\fluid_chorus.c" />
+    <ClCompile Include="src\fluid_conv.c" />
+    <ClCompile Include="src\fluid_defsfont.c" />
+    <ClCompile Include="src\fluid_dsp_float.c" />
+    <ClCompile Include="src\fluid_gen.c" />
+    <ClCompile Include="src\fluid_hash.c" />
+    <ClCompile Include="src\fluid_list.c" />
+    <ClCompile Include="src\fluid_mod.c" />
+    <ClCompile Include="src\fluid_ramsfont.c" />
+    <ClCompile Include="src\fluid_rev.c" />
+    <ClCompile Include="src\fluid_settings.c" />
+    <ClCompile Include="src\fluid_synth.c" />
+    <ClCompile Include="src\fluid_sys.c" />
+    <ClCompile Include="src\fluid_tuning.c" />
+    <ClCompile Include="src\fluid_voice.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\vorbisenc.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\info.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\analysis.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\bitrate.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\block.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\codebook.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\envelope.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\floor0.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\floor1.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\lookup.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\lpc.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\lsp.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\mapping0.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\mdct.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\psy.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\registry.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\res0.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\sharedbook.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\smallft.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\vorbisfile.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\window.c" />
+    <ClCompile Include="libvorbis-1.3.5\lib\synthesis.c" />
+    <ClCompile Include="libogg-1.3.2\src\bitwise.c" />
+    <ClCompile Include="libogg-1.3.2\src\framing.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
